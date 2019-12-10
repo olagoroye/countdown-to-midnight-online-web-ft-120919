@@ -28,7 +28,7 @@ def countdown_with_sleep(runtime = 5)
        runtime -= 1 
        
     end
-    sleep(1)
+    sleep(5)
     
   end
     
