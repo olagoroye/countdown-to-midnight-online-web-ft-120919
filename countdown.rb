@@ -21,7 +21,7 @@ end
 
 def countdown_with_sleep(runtime = 5)
 
-    while runtime > 0
+    while runtime == 5
   
    puts "#{runtime} SECOND(S)!"
    
