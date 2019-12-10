@@ -20,23 +20,17 @@ end
 #     end
 
 def countdown_with_sleep(runtime = 5)
-  while runtime > 0
+
+    while runtime > 0
   
-      runtime -= 1 
-    end
-    sleep(runtime = 5 )
-    end
-    
-    
-    
-    while number > 0
-  
-   puts "#{number} SECOND(S)!"
+   puts "#{runtime} SECOND(S)!"
    
-       number -= 1 
+       runtime -= 1 
        
     end
-    return "HAPPY NEW YEAR!"
+    sleep()
+    
+  end
     
     
     
